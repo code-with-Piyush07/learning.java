@@ -1,20 +1,19 @@
-class learning {
-    public static void main(String[] args) {
-        double unit = 1200;
-        if(unit>=1000){
-            double result = 500+ (unit - 1000)*5 ;
-            double surcharge = result + 0.1*result;
-            System.out.println("bill = " + surcharge);
-        }
-        else if (unit>=200 && unit<1000){
-            double billprice = 500 + (unit - 200)*5;
-           System.out.println(billprice);
+// number analyser
+ public class learning{
+  public static void main(String[] args) {
+    int n = 556;
+    if(n>0){
+        if(n%2==0)
+            System.out.println("positive " + " even &");
+        else 
+            System.out.println("positive" + " odd & ");
     }
-       else if(unit>=100&& unit<200){
-        double amount = 200 + (unit - 100)*3;
-        System.out.println(amount);
-       }
-       else
-        System.out.println((100 - unit) *2);
-}
+    else if(n==0)
+        System.out.println("zero");
+    else
+        System.out.println("negative");
+     String result = n%5==0?"divisible by 5 " : "not divisible by 5";
+     System.out.println(result);
+
+  }
 }
