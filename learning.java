@@ -1,19 +1,41 @@
-// number analyser
- public class learning{
-  public static void main(String[] args) {
-    int n = 556;
-    if(n>0){
-        if(n%2==0)
-            System.out.println("positive " + " even &");
-        else 
-            System.out.println("positive" + " odd & ");
+//calculator
+public class learning{
+    public static void main(String[] args) {
+        double a = 8;
+        double b = 9;
+        char c = '+';
+        double result = 0;
+    switch(c){
+        case '+' :
+            result= a+b;
+            System.out.println(result);
+            break;
+        case '-':
+            result = a-b;
+            System.out.println(result);
+            break;
+        case '*' :
+            result= a*b;
+            System.out.println(result);
+            break;
+        case '%' : 
+        {if(a!=0&&b!=0)
+            {result= a%b;
+            System.out.println(result);}
+            else
+                System.out.println("enter valid");}
+            break;
+       case('/') :{
+        if(a!=0&&b!=0)
+            {result= a/b;
+            System.out.println(result);}
+        else
+                System.out.println("enter valid");}
+            break;
     }
-    else if(n==0)
-        System.out.println("zero");
-    else
-        System.out.println("negative");
-     String result = n%5==0?"divisible by 5 " : "not divisible by 5";
-     System.out.println(result);
-
-  }
+       
+      String str = result>0 ? "positive" : "negative" ;
+      System.out.println(str);
 }
+    
+    }
