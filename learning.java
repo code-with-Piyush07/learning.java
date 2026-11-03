@@ -1,29 +1,43 @@
-class students{
-    int rollno ;
-    String name;
-    int marks;
-
+ /*class music
+{
+public void playmusic(){
+System.out.println("playing music...");
 
 }
-class learning{
+public String getapen(int n){
+    if(n<10)
+    return "pen";
+else 
+    return "nothing";
+}}
+
+
+
+public class learning{
+public static void main(String[] args) {
+    music calc = new music();
+     calc.playmusic();
+     music obj = new music();
+     String str = obj.getapen(10);
+     System.out.println(str);
+}
+}*/
+class calculate{
+public int add(int n ,int m ,int p){
+    int r = n+m+p;
+    return r;
+
+}
+public double add (double x,double y){
+double e = x+y;
+return e;
+}}
+public class learning{
     public static void main(String[] args) {
-        students s1 = new students();
-        s1.rollno =4;
-        s1.name = "Piyush";
-        s1.marks = 90;
-
-        students s2 = new students();
-        s2.rollno= 5;
-        s2.name = "god";
-        s2.marks = 100;
-
-       students student[]= new students[2];
-       student [0]= s1;
-       student[1]= s2;
-
-       for(int i = 0;i<student.length;i++){
-        System.out.println(student[i].name + ":" + student[i].marks);
-
-       }
+        calculate calc = new calculate();
+        calc.add(4,7);
+       double result = calc.add(4,7);
+       System.out.println(result);
     }
 }
+
