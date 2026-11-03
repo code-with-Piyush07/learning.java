@@ -21,7 +21,7 @@ public static void main(String[] args) {
      String str = obj.getapen(10);
      System.out.println(str);
 }
-}*/
+}
 class calculate{
 public int add(int n ,int m ,int p){
     int r = n+m+p;
@@ -39,5 +39,15 @@ public class learning{
        double result = calc.add(4,7);
        System.out.println(result);
     }
+}*/
+class learning{
+ public static void main(String[] args) {
+     int array[] = new int[2];
+      array[0] = 1;
+      array[1]= 2;
+      for(int i = 0;i<=1;i++){
+        System.out.println(array[i]);
+      }
+ }
 }
 
