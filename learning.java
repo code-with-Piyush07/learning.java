@@ -1,53 +1,38 @@
- /*class music
-{
-public void playmusic(){
-System.out.println("playing music...");
-
+/*public class learning{
+    public static void main(String[] args) {
+        int nums[][] =new int[3][4];
+        for(int i= 0;i<3;i++){
+            for(int j = 0;j<4;j++){
+                System.out.print(nums[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
 }
-public String getapen(int n){
-    if(n<10)
-    return "pen";
-else 
-    return "nothing";
-}}
-
-
-
-public class learning{
-public static void main(String[] args) {
-    music calc = new music();
-     calc.playmusic();
-     music obj = new music();
-     String str = obj.getapen(10);
-     System.out.println(str);
-}
-}
-class calculate{
-public int add(int n ,int m ,int p){
-    int r = n+m+p;
-    return r;
-
-}
-public double add (double x,double y){
-double e = x+y;
-return e;
-}}
 public class learning{
     public static void main(String[] args) {
-        calculate calc = new calculate();
-        calc.add(4,7);
-       double result = calc.add(4,7);
-       System.out.println(result);
+        int nums[][] =new int[3][4];
+        for(int i= 0;i<3;i++){
+            for(int j = 0;j<4;j++){
+                nums[i][j] = (int )(Math.random()*100);
+                System.out.print(nums[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }*/
-class learning{
- public static void main(String[] args) {
-     int array[] = new int[2];
-      array[0] = 1;
-      array[1]= 2;
-      for(int i = 0;i<=1;i++){
-        System.out.println(array[i]);
-      }
- }
+public class learning{
+    public static void main(String[] args) {
+        int nums[][] =new int[3][];
+        nums[0]= new int[3];
+        nums[1]= new int[4];
+        nums[2]= new int[3];
+        for(int i= 0;i<3;i++){
+            for(int j = 0;j<nums[i].length;j++){
+                nums[i][j] = (int )(Math.random()*100);
+                System.out.print(nums[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
 }
-
