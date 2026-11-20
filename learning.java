@@ -7,6 +7,10 @@ class Human{
      public void setage(int a){
         age = a;
      }
+     public Human(){
+      System.out.println("in constructor");
+
+     }
      public String getname(){
         return name;
      }
@@ -20,10 +24,11 @@ public class learning{
         
     
     Human obj = new Human();
+    System.out.println(obj.getname() +":" + obj.getage());
     obj.setage(30);
     
     obj.setname("piyush");
-    System.out.println(obj.age +":" + obj.name);
+    
 
 }
 }
