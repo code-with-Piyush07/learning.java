@@ -1,53 +1,57 @@
-/*class Human{
-   private int age ;
-     private String name;
-     public int getage(){
-        return age;
-     }
-     public void setage(int a){
-        age = a;
-     }
-     public Human(){
-     age = 12;
-     name = "john";
-
-     }
-     public Human(int a,String n){
-      age = a;
-      name = n;
-     }
-     public String getname(){
-        return name;
-     }
-     public void setname(String n){
-        name = n;
-     }
-
-}
-public class learning{
-    public static void main(String[] args) {
-        
-    
-    Human obj = new Human();
-    Human obj1 = new Human(18,"piyush");
-    System.out.println(obj1.getname() + ":" + obj1.getage());
-    System.out.println(obj.getname() +":" + obj.getage());
-   
-    
-     
-    
-
-}
-}*/
-class A{
-   public void show(){
-      System.out.println("in classs");
-   }
-} 
-public class learning{
+class learning{
    public static void main(String[] args) {
-      //A neww = new A();
-      //neww.show();
-    new A().show();
+      int n = 5;
+      for(int i =1;i<=(n/2+1);i++){
+         for (int s = 1; s <= n/2+1 - i; s++) {
+            System.out.print(" ");
+         }
+         if(i%2!=0){
+              System.out.print(" * ");
+         for(int j=1;j<=i;j++){
+           
+            System.out.print(" ");
+             
+            
+            }
+              System.out.print(" * ");
+            System.out.println();
+
+         }
+         if(i%2==0){
+            System.out.print(" # ");
+            for(int j=1;j<=i;j++){
+               
+               System.out.print("  ");
+               
+              
+               
+      }System.out.print(" # ");
+       System.out.println();
    }
-}
+}for(int i =(n/2);i>=1;i--){
+   for (int s = 1; s <= n/2+1 - i; s++) {
+            System.out.print(" ");
+         }
+         if(i%2!=0){ System.out.print(" * ");
+         for(int j=1;j<=i;j++){
+           
+            System.out.print("  ");
+             
+            
+            } System.out.print(" * ");
+            System.out.println();
+
+         }
+         if(i%2==0){System.out.print(" # ");
+            for(int j=1;j<=i;j++){
+               
+               System.out.print(" ");
+               
+              
+               
+      }
+      System.out.print(" # ");
+       System.out.println();
+   }}
+   }}
+  
